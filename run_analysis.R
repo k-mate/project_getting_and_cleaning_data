@@ -47,7 +47,7 @@ test <- cbind(subject_test, Y_test, X_test)
 Merged_Data <- rbind(train, test)
 
 #------------------------------------------------------------------------------------------------------
-# Step 2.-Extracts only the measurements on the mean and standard deviation for each measurement.
+# Step 2.Extracts only the measurements on the mean and standard deviation for each measurement.
 #------------------------------------------------------------------------------------------------------
 library(dplyr)
 MeanStd_Data <- Merged_Data %>% 
